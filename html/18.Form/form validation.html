@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> form validation </title>
+	</head>
+	<body>
+		<form>
+		<datalist id="names">
+			<option value="Minjun"> Minjun </option>
+			<option value="Nahar"> Nahar </option>
+			<option value="Mim"> Mim </option>
+		</datalist>
+			<p> <input type="text" list="names" placeholder="user name" required pattern="[a-zA-Z0-9]+"></p>
+			<p> <input type="email" placeholder="enter your email"></p>
+			<p> <input type="submit" value="sign up"> </p>
+		</form>
+	</body>
+</html>
